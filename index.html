@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício - Forms</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Teste com Formulários</h1>
+      <h2>
+        Preencha os campos abaixo com números diferentes e depois clique em
+        'Submeter'
+      </h2>
+      <form id="form-numeros">
+        <p>Campo A</p>
+        <input
+          id="numero-a"
+          type="number"
+          required
+          placeholder="Digite um número"
+        />
+        <p>Campo B</p>
+        <input
+          id="numero-b"
+          type="number"
+          required
+          placeholder="Digite um número"
+        />
+
+        <button type="submit">Submeter</button>
+      </form>
+      <p class="success-message"></p>
+      <p class="error-message"></p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
