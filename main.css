@@ -8,6 +8,7 @@
 h1 {
   margin: 24px;
   text-align: center;
+  font-size: 50px;
 }
 
 .container {
@@ -24,6 +25,7 @@ form {
 .form-campo label {
   display: inline-block;
   margin: 8px;
+  font-size: 24px;
 }
 
 .form-campo input {
